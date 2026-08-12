@@ -9,7 +9,11 @@
         content="Naveen Kumar Nallamsetti - AWS DevOps Engineer with 3.11 years of experience in AWS, Kubernetes, Docker, Jenkins, Terraform, Ansible and CI/CD."
     >
 
-    <title>Naveen Kumar | AWS DevOps Engineer</title>
+    <title>Naveen Kumar Nallamsetti | AWS DevOps Engineer</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -23,7 +27,8 @@
         <div class="container nav-container">
 
             <a href="#home" class="logo">
-                Naveen<span>.</span>
+                <span class="logo-mark">N</span>
+                Naveen<span class="logo-dot">.</span>
             </a>
 
             <nav>
@@ -36,8 +41,8 @@
                 <a href="#contact">Contact</a>
             </nav>
 
-            <a href="Naveen_Aws_Devops_Engineer_3.11Years_Experience.pdf" class="btn resume-btn" download>
-                Resume ↓
+            <a href="assets/Naveen_Kumar_Nallamsetti_Resume.pdf" class="btn resume-btn" download>
+                Resume <span aria-hidden="true">↓</span>
             </a>
 
         </div>
@@ -45,9 +50,9 @@
     </header>
 
 
-    <!-- ================= HERO ================= -->
-
     <main>
+
+        <!-- ================= HERO ================= -->
 
         <section id="home" class="hero">
 
@@ -55,126 +60,149 @@
 
                 <div class="hero-content">
 
-                    <p class="hero-label">
-                        AWS DEVOPS ENGINEER &middot; CHENNAI, INDIA
+                    <p class="breadcrumb">
+                        console <span>/</span> devops-engineer <span>/</span> naveen-kumar
                     </p>
 
                     <h1>
-                        Hi, I'm
-                        <span>Naveen Kumar</span>
+                        Infrastructure that stays
+                        <span>up while you sleep.</span>
                     </h1>
 
-                    <h2>
-                        I build cloud infrastructure that doesn't page you at 2 AM
-                    </h2>
-
                     <p class="hero-description">
-                        <strong>3.11 years</strong> designing, automating and running
-                        production AWS environments — Terraform for infrastructure,
-                        Jenkins for delivery, Kubernetes for orchestration, and
-                        Prometheus/Grafana for knowing about problems before anyone
-                        else does. Currently keeping banking and insurance workloads
-                        online for clients in the UK and Switzerland.
+                        AWS DevOps Engineer with <strong>3.11 years</strong> designing,
+                        automating and running production cloud environments —
+                        Terraform for infrastructure, Jenkins for delivery, Kubernetes
+                        for orchestration, and Prometheus/Grafana for catching issues
+                        before they page anyone. Currently supporting banking and
+                        insurance workloads for clients in the UK and Switzerland.
                     </p>
 
                     <div class="hero-buttons">
 
                         <a href="#projects" class="btn primary-btn">
-                            View My Projects
+                            View Projects
                         </a>
 
                         <a href="#contact" class="btn secondary-btn">
-                            Contact Me
+                            Get In Touch
                         </a>
 
                     </div>
 
-                    <div class="social-links">
+                    <div class="stack-row">
 
-                        <a
-                            href="https://github.com/naveennallamsetti"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            GitHub
-                        </a>
-
-                        <a
-                            href="https://www.linkedin.com/in/naveen-kumar-nallamsetti"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            LinkedIn
-                        </a>
-
-                        <a href="mailto:naveendevops589@gmail.com">
-                            Email
-                        </a>
+                        <span>AWS</span>
+                        <span>Kubernetes</span>
+                        <span>Terraform</span>
+                        <span>Jenkins</span>
+                        <span>Ansible</span>
+                        <span>Docker</span>
+                        <span>Prometheus</span>
 
                     </div>
 
                 </div>
 
 
-                <div class="hero-card">
+                <div class="hero-visual">
 
-                    <div class="terminal">
+                    <div class="diagram-frame">
 
-                        <div class="terminal-header">
+                        <div class="diagram-titlebar">
 
-                            <span class="dot red"></span>
-                            <span class="dot yellow"></span>
-                            <span class="dot green"></span>
+                            <span class="diagram-title">architecture · production-vpc</span>
 
-                            <span class="terminal-title">naveen@devops:~</span>
+                            <span class="status-chip">
+                                <span class="status-dot"></span>
+                                All systems operational
+                            </span>
 
                         </div>
 
-                        <div class="terminal-body">
+                        <svg class="diagram" viewBox="0 0 560 470" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Diagram of a production AWS architecture with Route 53, ALB, EKS, EC2 Auto Scaling, RDS, S3 and CloudWatch">
 
-                            <p>
-                                <span class="terminal-green">$</span>
-                                whoami
-                            </p>
+                            <!-- flow lines (drawn first, sit behind nodes) -->
+                            <path class="flow-line" d="M280,46 L280,78" />
+                            <path class="flow-line" d="M280,114 L280,146" />
+                            <path class="flow-line" d="M170,296 L170,340 L150,340 L150,360" />
+                            <path class="flow-line" d="M390,296 L390,340 L410,340 L410,360" />
+                            <path class="flow-line flow-dashed" d="M360,96 L470,96 L470,60" />
+                            <path class="flow-line flow-dashed" d="M200,96 L90,96 L90,60" />
 
-                            <p class="terminal-output">
-                                naveen-devops · 3.11 yrs experience
-                            </p>
+                            <!-- Route 53 -->
+                            <g class="node node-edge">
+                                <rect x="220" y="10" width="120" height="36" rx="8" />
+                                <text x="280" y="33" text-anchor="middle">Route 53</text>
+                            </g>
 
-                            <p>
-                                <span class="terminal-green">$</span>
-                                kubectl get toolbelt
-                            </p>
+                            <!-- IAM -->
+                            <g class="node node-edge">
+                                <rect x="30" y="24" width="110" height="36" rx="8" />
+                                <text x="85" y="47" text-anchor="middle">IAM</text>
+                            </g>
 
-                            <p class="terminal-output">
-                                AWS · Docker · Kubernetes (EKS)
-                            </p>
+                            <!-- CloudWatch -->
+                            <g class="node node-edge">
+                                <rect x="420" y="24" width="110" height="36" rx="8" />
+                                <text x="475" y="47" text-anchor="middle">CloudWatch</text>
+                            </g>
 
-                            <p class="terminal-output">
-                                Jenkins · Terraform · Ansible
-                            </p>
+                            <!-- ALB -->
+                            <g class="node node-primary">
+                                <rect x="200" y="78" width="160" height="36" rx="8" />
+                                <text x="280" y="101" text-anchor="middle">Application LB</text>
+                            </g>
 
-                            <p class="terminal-output">
-                                Prometheus · Grafana · ELK
-                            </p>
+                            <!-- VPC boundary -->
+                            <rect class="vpc-boundary" x="40" y="146" width="480" height="150" rx="14" />
+                            <text class="vpc-label" x="58" y="168">VPC · 10.0.0.0/16</text>
 
-                            <p>
-                                <span class="terminal-green">$</span>
-                                uptime --apps
-                            </p>
+                            <!-- EKS -->
+                            <g class="node node-inner">
+                                <rect x="66" y="184" width="200" height="94" rx="10" />
+                                <text x="166" y="204" text-anchor="middle" class="node-title">Amazon EKS</text>
+                                <rect class="pod" x="80" y="216" width="52" height="46" rx="6" />
+                                <text x="106" y="243" text-anchor="middle" class="pod-label">pod</text>
+                                <rect class="pod" x="140" y="216" width="52" height="46" rx="6" />
+                                <text x="166" y="243" text-anchor="middle" class="pod-label">pod</text>
+                                <rect class="pod" x="200" y="216" width="52" height="46" rx="6" />
+                                <text x="226" y="243" text-anchor="middle" class="pod-label">pod</text>
+                            </g>
 
-                            <p class="terminal-output">
-                                12+ apps · 99.9% uptime
-                            </p>
+                            <!-- EC2 ASG -->
+                            <g class="node node-inner">
+                                <rect x="294" y="184" width="200" height="94" rx="10" />
+                                <text x="394" y="204" text-anchor="middle" class="node-title">EC2 Auto Scaling</text>
+                                <rect class="pod" x="308" y="216" width="52" height="46" rx="6" />
+                                <text x="334" y="243" text-anchor="middle" class="pod-label">ec2</text>
+                                <rect class="pod" x="368" y="216" width="52" height="46" rx="6" />
+                                <text x="394" y="243" text-anchor="middle" class="pod-label">ec2</text>
+                                <rect class="pod" x="428" y="216" width="52" height="46" rx="6" />
+                                <text x="454" y="243" text-anchor="middle" class="pod-label">ec2</text>
+                            </g>
 
-                            <p>
-                                <span class="terminal-green">$</span>
-                                status
-                            </p>
+                            <!-- RDS -->
+                            <g class="node node-edge">
+                                <rect x="80" y="360" width="150" height="44" rx="8" />
+                                <text x="155" y="378" text-anchor="middle">RDS</text>
+                                <text x="155" y="394" text-anchor="middle" class="node-sub">PostgreSQL</text>
+                            </g>
 
-                            <p class="terminal-success">
-                                ● Available for opportunities
-                            </p>
+                            <!-- S3 -->
+                            <g class="node node-edge">
+                                <rect x="335" y="360" width="150" height="44" rx="8" />
+                                <text x="410" y="378" text-anchor="middle">S3</text>
+                                <text x="410" y="394" text-anchor="middle" class="node-sub">Artifacts &amp; State</text>
+                            </g>
+
+                        </svg>
+
+                        <div class="diagram-footer">
+
+                            <span>Uptime <strong>99.9%</strong></span>
+                            <span>Apps <strong>12+</strong></span>
+                            <span>Deploy <strong>45m</strong></span>
 
                         </div>
 
@@ -187,123 +215,128 @@
         </section>
 
 
+        <!-- ================= METRICS STRIP ================= -->
+
+        <section class="metrics-strip">
+
+            <div class="container metrics-grid">
+
+                <div class="metric">
+                    <h3>3.11+</h3>
+                    <p>Years in AWS &amp; DevOps</p>
+                </div>
+
+                <div class="metric">
+                    <h3>99.9%</h3>
+                    <p>Production uptime</p>
+                </div>
+
+                <div class="metric">
+                    <h3>4h → 45m</h3>
+                    <p>Deployment time cut</p>
+                </div>
+
+                <div class="metric">
+                    <h3>30m → 5m</h3>
+                    <p>Incident detection</p>
+                </div>
+
+                <div class="metric">
+                    <h3>70%</h3>
+                    <p>Less manual provisioning</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
         <!-- ================= ABOUT ================= -->
 
         <section id="about" class="section">
 
-            <div class="container">
+            <div class="container about-grid">
 
-                <div class="section-heading">
+                <div class="about-text">
 
-                    <p class="section-label">
-                        ABOUT ME
-                    </p>
+                    <p class="section-label">// About</p>
 
                     <h2>
-                        Building reliable infrastructure
-                        and automated delivery
+                        I keep production boring —
+                        on purpose.
                     </h2>
+
+                    <p>
+                        I'm an AWS DevOps Engineer who builds, automates and
+                        operates cloud infrastructure and delivery pipelines for
+                        systems that can't afford downtime. My work spans AWS
+                        core services, Kubernetes on Amazon EKS, Docker, Jenkins,
+                        Terraform and Ansible, backed by monitoring and logging
+                        with Prometheus, Grafana, the ELK Stack and CloudWatch.
+                    </p>
+
+                    <p>
+                        I've delivered Infrastructure as Code, CI/CD automation,
+                        container orchestration and zero-downtime deployment
+                        strategies for banking and insurance platforms serving
+                        clients in the UK and Switzerland — and I like the parts
+                        of the job most people skip: root cause analysis, capacity
+                        planning, and the postmortem nobody wants to write but
+                        everybody needs.
+                    </p>
+
+                    <div class="competency-chips">
+
+                        <span>Infrastructure as Code</span>
+                        <span>Container Orchestration</span>
+                        <span>CI/CD Automation</span>
+                        <span>Cloud Security</span>
+                        <span>Observability</span>
+                        <span>Incident Response</span>
+
+                    </div>
 
                 </div>
 
+                <div class="about-card">
 
-                <div class="about-grid">
+                    <h3>Snapshot</h3>
 
-                    <div class="about-text">
+                    <dl>
 
-                        <p>
-                            I'm an AWS DevOps Engineer who focuses on building,
-                            automating and maintaining reliable cloud infrastructure
-                            and software delivery pipelines for production systems
-                            that can't afford downtime.
-                        </p>
-
-                        <p>
-                            My day-to-day covers AWS core services, Kubernetes on
-                            Amazon EKS, Docker, Jenkins, Terraform and Ansible,
-                            alongside monitoring and logging with Prometheus,
-                            Grafana, the ELK Stack and CloudWatch.
-                        </p>
-
-                        <p>
-                            I've shipped Infrastructure as Code, CI/CD automation,
-                            container orchestration, zero-downtime deployment
-                            strategies, and production support — for banking and
-                            insurance platforms serving clients in the UK and
-                            Switzerland.
-                        </p>
-
-                    </div>
-
-
-                    <div class="about-stats">
-
-                        <div class="stat-card">
-
-                            <h3>3.11+</h3>
-
-                            <p>
-                                Years Experience
-                            </p>
-
+                        <div>
+                            <dt>Role</dt>
+                            <dd>AWS DevOps Engineer</dd>
                         </div>
 
-
-                        <div class="stat-card">
-
-                            <h3>12+</h3>
-
-                            <p>
-                                Applications Supported
-                            </p>
-
+                        <div>
+                            <dt>Location</dt>
+                            <dd>Chennai, India</dd>
                         </div>
 
-
-                        <div class="stat-card">
-
-                            <h3>99.9%</h3>
-
-                            <p>
-                                Application Uptime
-                            </p>
-
+                        <div>
+                            <dt>Current employer</dt>
+                            <dd>Yokra Technology Solutions</dd>
                         </div>
 
-
-                        <div class="stat-card">
-
-                            <h3>4h → 45m</h3>
-
-                            <p>
-                                Deployment Time Cut
-                            </p>
-
+                        <div>
+                            <dt>Education</dt>
+                            <dd>B.Tech, JNTUK University</dd>
                         </div>
 
-
-                        <div class="stat-card">
-
-                            <h3>30m → 5m</h3>
-
-                            <p>
-                                Incident Detection Time
-                            </p>
-
+                        <div>
+                            <dt>Status</dt>
+                            <dd class="status-text">
+                                <span class="status-dot"></span>
+                                Open to opportunities
+                            </dd>
                         </div>
 
+                    </dl>
 
-                        <div class="stat-card">
-
-                            <h3>30+</h3>
-
-                            <p>
-                                Servers Automated
-                            </p>
-
-                        </div>
-
-                    </div>
+                    <a href="assets/Naveen_Kumar_Nallamsetti_Resume.pdf" class="btn primary-btn about-card-btn" download>
+                        Download Resume
+                    </a>
 
                 </div>
 
@@ -320,12 +353,10 @@
 
                 <div class="section-heading">
 
-                    <p class="section-label">
-                        TECHNICAL SKILLS
-                    </p>
+                    <p class="section-label">// Skills</p>
 
                     <h2>
-                        Technologies I work with
+                        Technology stack
                     </h2>
 
                 </div>
@@ -334,14 +365,13 @@
                 <div class="skills-grid">
 
 
-                    <!-- AWS -->
-
                     <div class="skill-card">
 
-                        <h3>AWS Cloud</h3>
+                        <div class="skill-icon">AWS</div>
+
+                        <h3>Cloud Platform</h3>
 
                         <div class="tags">
-
                             <span>EC2</span>
                             <span>VPC</span>
                             <span>IAM</span>
@@ -358,20 +388,18 @@
                             <span>Lambda</span>
                             <span>SNS</span>
                             <span>Secrets Manager</span>
-
                         </div>
 
                     </div>
 
 
-                    <!-- CI/CD -->
-
                     <div class="skill-card">
 
-                        <h3>DevOps & CI/CD</h3>
+                        <div class="skill-icon">CI</div>
+
+                        <h3>DevOps &amp; CI/CD</h3>
 
                         <div class="tags">
-
                             <span>Jenkins</span>
                             <span>Git</span>
                             <span>GitHub</span>
@@ -382,20 +410,18 @@
                             <span>SonarQube</span>
                             <span>Jira</span>
                             <span>Confluence</span>
-
                         </div>
 
                     </div>
 
 
-                    <!-- Containers -->
-
                     <div class="skill-card">
 
-                        <h3>Containers & Kubernetes</h3>
+                        <div class="skill-icon">K8S</div>
+
+                        <h3>Containers &amp; Orchestration</h3>
 
                         <div class="tags">
-
                             <span>Docker</span>
                             <span>Kubernetes</span>
                             <span>Amazon EKS</span>
@@ -405,112 +431,99 @@
                             <span>ConfigMaps</span>
                             <span>Secrets</span>
                             <span>HPA</span>
-
                         </div>
 
                     </div>
 
 
-                    <!-- IaC -->
-
                     <div class="skill-card">
+
+                        <div class="skill-icon">IAC</div>
 
                         <h3>Infrastructure as Code</h3>
 
                         <div class="tags">
-
                             <span>Terraform</span>
                             <span>Ansible</span>
                             <span>CloudFormation</span>
-
                         </div>
 
                     </div>
 
 
-                    <!-- Monitoring -->
-
                     <div class="skill-card">
 
-                        <h3>Monitoring & Logging</h3>
+                        <div class="skill-icon">MON</div>
+
+                        <h3>Monitoring &amp; Logging</h3>
 
                         <div class="tags">
-
                             <span>Prometheus</span>
                             <span>Grafana</span>
                             <span>CloudWatch</span>
                             <span>ELK Stack</span>
-
                         </div>
 
                     </div>
 
 
-                    <!-- Security -->
-
                     <div class="skill-card">
 
-                        <h3>Security & Quality</h3>
+                        <div class="skill-icon">SEC</div>
+
+                        <h3>Security &amp; Quality</h3>
 
                         <div class="tags">
-
                             <span>IAM</span>
                             <span>SonarQube</span>
                             <span>Secrets Management</span>
                             <span>Vulnerability Scanning</span>
-
                         </div>
 
                     </div>
 
 
-                    <!-- Scripting -->
-
                     <div class="skill-card">
+
+                        <div class="skill-icon">SH</div>
 
                         <h3>Scripting</h3>
 
                         <div class="tags">
-
                             <span>Bash</span>
                             <span>Python</span>
                             <span>Shell Scripting</span>
-
                         </div>
 
                     </div>
 
 
-                    <!-- Database -->
-
                     <div class="skill-card">
+
+                        <div class="skill-icon">DB</div>
 
                         <h3>Databases</h3>
 
                         <div class="tags">
-
                             <span>PostgreSQL</span>
                             <span>MySQL</span>
                             <span>DynamoDB</span>
                             <span>AWS RDS</span>
-
                         </div>
 
                     </div>
 
 
-                    <!-- OS -->
-
                     <div class="skill-card">
+
+                        <div class="skill-icon">OS</div>
 
                         <h3>Operating Systems</h3>
 
                         <div class="tags">
-
                             <span>Linux</span>
                             <span>Ubuntu</span>
                             <span>Amazon Linux</span>
-
                         </div>
 
                     </div>
@@ -530,12 +543,10 @@
 
                 <div class="section-heading">
 
-                    <p class="section-label">
-                        EXPERIENCE
-                    </p>
+                    <p class="section-label">// Experience</p>
 
                     <h2>
-                        Professional Experience
+                        Professional experience
                     </h2>
 
                 </div>
@@ -548,101 +559,47 @@
 
                     <article class="timeline-item">
 
-                        <div class="timeline-dot"></div>
+                        <div class="timeline-dot dot-active"></div>
 
                         <div class="experience-card">
 
                             <div class="experience-header">
 
                                 <div>
-
-                                    <h3>
-                                        AWS DevOps Engineer
-                                    </h3>
-
-                                    <h4>
-                                        Yokra Technology Solutions Pvt Ltd
-                                    </h4>
-
+                                    <h3>AWS DevOps Engineer</h3>
+                                    <h4>Yokra Technology Solutions Pvt Ltd</h4>
                                 </div>
 
-                                <span>
-                                    Feb 2025 – Present
-                                </span>
+                                <div class="header-meta">
+
+                                    <span class="state-pill state-active">
+                                        <span class="status-dot"></span> running
+                                    </span>
+
+                                    <span class="date-pill">Feb 2025 – Present</span>
+
+                                </div>
 
                             </div>
 
                             <p class="location">
-                                Chennai, India &middot; Client: Lloyds Banking Group, UK
+                                Chennai, India
+                                <span class="region-tag">client-region: eu-west-2</span>
+                                <span class="client-name">Lloyds Banking Group, UK</span>
                             </p>
 
                             <ul>
-
-                                <li>
-                                    Architected and managed highly-available AWS
-                                    infrastructure (EC2, VPC, IAM, S3, RDS, EKS,
-                                    Route 53, ALB) supporting 12+ applications with
-                                    99.9% uptime.
-                                </li>
-
-                                <li>
-                                    Built and maintained Jenkins CI/CD pipelines
-                                    integrated with GitHub, cutting deployment time
-                                    from 4 hours to 45 minutes.
-                                </li>
-
-                                <li>
-                                    Automated AWS provisioning with Terraform using
-                                    remote state (S3 + DynamoDB locking), reducing
-                                    manual provisioning effort by 70%.
-                                </li>
-
-                                <li>
-                                    Wrote Ansible playbooks for deployment, patching
-                                    and configuration across 30+ servers, cutting
-                                    manual config time by 60%.
-                                </li>
-
-                                <li>
-                                    Containerized applications with Docker and
-                                    deployed microservices to Kubernetes clusters.
-                                </li>
-
-                                <li>
-                                    Engineered Kubernetes manifests for Deployments,
-                                    Services, ConfigMaps, Secrets and Ingress
-                                    resources.
-                                </li>
-
-                                <li>
-                                    Implemented Prometheus/Grafana dashboards and
-                                    alert rules, cutting incident detection time
-                                    from 30 minutes to 5 minutes.
-                                </li>
-
-                                <li>
-                                    Ran centralized logging with the ELK Stack and
-                                    CloudWatch Logs.
-                                </li>
-
-                                <li>
-                                    Administered 3–4 node production EKS clusters
-                                    (RBAC, namespace isolation, HPA scaling)
-                                    supporting 8–10 microservices.
-                                </li>
-
-                                <li>
-                                    Administered PostgreSQL on AWS RDS — configuration,
-                                    backups, recovery, performance tuning and query
-                                    optimization.
-                                </li>
-
-                                <li>
-                                    Worked in Agile/Scrum, supporting production
-                                    deployments, incident management and root cause
-                                    analysis.
-                                </li>
-
+                                <li>Architected and managed highly-available AWS infrastructure (EC2, VPC, IAM, S3, RDS, EKS, Route 53, ALB) supporting 12+ applications with 99.9% uptime.</li>
+                                <li>Built and maintained Jenkins CI/CD pipelines integrated with GitHub, cutting deployment time from 4 hours to 45 minutes.</li>
+                                <li>Automated AWS provisioning with Terraform using remote state (S3 + DynamoDB locking), reducing manual provisioning effort by 70%.</li>
+                                <li>Wrote Ansible playbooks for deployment, patching and configuration across 30+ servers, cutting manual config time by 60%.</li>
+                                <li>Containerized applications with Docker and deployed microservices to Kubernetes clusters.</li>
+                                <li>Engineered Kubernetes manifests for Deployments, Services, ConfigMaps, Secrets and Ingress resources.</li>
+                                <li>Implemented Prometheus/Grafana dashboards and alert rules, cutting incident detection time from 30 minutes to 5 minutes.</li>
+                                <li>Ran centralized logging with the ELK Stack and CloudWatch Logs.</li>
+                                <li>Administered 3–4 node production EKS clusters (RBAC, namespace isolation, HPA scaling) supporting 8–10 microservices.</li>
+                                <li>Administered PostgreSQL on AWS RDS — configuration, backups, recovery, performance tuning and query optimization.</li>
+                                <li>Worked in Agile/Scrum, supporting production deployments, incident management and root cause analysis.</li>
                             </ul>
 
                         </div>
@@ -661,79 +618,38 @@
                             <div class="experience-header">
 
                                 <div>
-
-                                    <h3>
-                                        Software Engineer
-                                    </h3>
-
-                                    <h4>
-                                        Krify Software Technologies Pvt Ltd
-                                    </h4>
-
+                                    <h3>Software Engineer</h3>
+                                    <h4>Krify Software Technologies Pvt Ltd</h4>
                                 </div>
 
-                                <span>
-                                    Sep 2022 – Jan 2025
-                                </span>
+                                <div class="header-meta">
+
+                                    <span class="state-pill state-done">
+                                        completed
+                                    </span>
+
+                                    <span class="date-pill">Sep 2022 – Jan 2025</span>
+
+                                </div>
 
                             </div>
 
                             <p class="location">
-                                Kakinada, India &middot; Client: Zurich Insurance Group, Switzerland
+                                Kakinada, India
+                                <span class="region-tag">client-region: eu-central-2</span>
+                                <span class="client-name">Zurich Insurance Group, Switzerland</span>
                             </p>
 
                             <ul>
-
-                                <li>
-                                    Designed scalable AWS infrastructure with
-                                    Terraform across EC2, EKS, VPC, IAM, S3, RDS,
-                                    Route 53, ALB, Auto Scaling and CloudWatch.
-                                </li>
-
-                                <li>
-                                    Built and maintained Jenkins CI/CD pipelines
-                                    integrated with GitHub for build, test and
-                                    deployment.
-                                </li>
-
-                                <li>
-                                    Containerized applications with Docker and
-                                    administered image repositories in Amazon ECR.
-                                </li>
-
-                                <li>
-                                    Deployed and operated workloads on Amazon EKS
-                                    using Deployments, Services, Ingress, ConfigMaps,
-                                    Secrets and HPA.
-                                </li>
-
-                                <li>
-                                    Automated server provisioning and configuration
-                                    management with Ansible playbooks.
-                                </li>
-
-                                <li>
-                                    Ran rolling, blue-green and canary deployments
-                                    to ensure zero-downtime releases.
-                                </li>
-
-                                <li>
-                                    Monitored infrastructure and application health
-                                    with Prometheus, Grafana and CloudWatch.
-                                </li>
-
-                                <li>
-                                    Applied IAM policies, secrets management and
-                                    vulnerability scanning as part of security
-                                    best practice.
-                                </li>
-
-                                <li>
-                                    Partnered with development and QA teams to
-                                    troubleshoot production issues and streamline
-                                    release cycles.
-                                </li>
-
+                                <li>Designed scalable AWS infrastructure with Terraform across EC2, EKS, VPC, IAM, S3, RDS, Route 53, ALB, Auto Scaling and CloudWatch.</li>
+                                <li>Built and maintained Jenkins CI/CD pipelines integrated with GitHub for build, test and deployment.</li>
+                                <li>Containerized applications with Docker and administered image repositories in Amazon ECR.</li>
+                                <li>Deployed and operated workloads on Amazon EKS using Deployments, Services, Ingress, ConfigMaps, Secrets and HPA.</li>
+                                <li>Automated server provisioning and configuration management with Ansible playbooks.</li>
+                                <li>Ran rolling, blue-green and canary deployments to ensure zero-downtime releases.</li>
+                                <li>Monitored infrastructure and application health with Prometheus, Grafana and CloudWatch.</li>
+                                <li>Applied IAM policies, secrets management and vulnerability scanning as part of security best practice.</li>
+                                <li>Partnered with development and QA teams to troubleshoot production issues and streamline release cycles.</li>
                             </ul>
 
                         </div>
@@ -755,12 +671,10 @@
 
                 <div class="section-heading">
 
-                    <p class="section-label">
-                        PROJECTS
-                    </p>
+                    <p class="section-label">// Case Studies</p>
 
                     <h2>
-                        Enterprise Projects
+                        Enterprise projects
                     </h2>
 
                 </div>
@@ -769,26 +683,24 @@
                 <div class="projects-grid">
 
 
-                    <!-- Lloyds -->
-
                     <article class="project-card">
 
-                        <p class="project-client">
-                            Lloyds Banking Group, UK
-                        </p>
+                        <div class="project-top">
+                            <p class="project-client">Lloyds Banking Group, UK</p>
+                            <span class="region-tag">eu-west-2</span>
+                        </div>
 
-                        <h3>
-                            Lloyds Bank HBOS Integration
-                        </h3>
+                        <h3>Lloyds Bank HBOS Integration</h3>
 
                         <p>
                             Cloud infrastructure management, CI/CD automation,
-                            containerization and Kubernetes deployments for
-                            banking application integration and modernization.
+                            containerization and Kubernetes deployments for banking
+                            application integration and modernization.
                         </p>
 
-                        <div class="project-tech">
+                        <p class="project-impact">Impact: deploy time cut from 4h to 45m</p>
 
+                        <div class="project-tech">
                             <span>AWS</span>
                             <span>Terraform</span>
                             <span>Jenkins</span>
@@ -798,32 +710,30 @@
                             <span>Prometheus</span>
                             <span>Grafana</span>
                             <span>ELK</span>
-
                         </div>
 
                     </article>
 
 
-                    <!-- Zurich -->
-
                     <article class="project-card">
 
-                        <p class="project-client">
-                            Zurich Insurance Group, Switzerland
-                        </p>
+                        <div class="project-top">
+                            <p class="project-client">Zurich Insurance Group, Switzerland</p>
+                            <span class="region-tag">eu-central-2</span>
+                        </div>
 
-                        <h3>
-                            Zurich Life and Pensions System
-                        </h3>
+                        <h3>Zurich Life &amp; Pensions System</h3>
 
                         <p>
-                            Insurance policy and pensions platform: automated cloud
-                            infrastructure, application deployments and monitoring,
-                            with zero-downtime release strategies on Amazon EKS.
+                            Insurance policy and pensions platform: automated
+                            cloud infrastructure, application deployments and
+                            monitoring, with zero-downtime release strategies on
+                            Amazon EKS.
                         </p>
 
-                        <div class="project-tech">
+                        <p class="project-impact">Impact: zero-downtime releases via blue-green &amp; canary</p>
 
+                        <div class="project-tech">
                             <span>AWS</span>
                             <span>EKS</span>
                             <span>Jenkins</span>
@@ -833,37 +743,34 @@
                             <span>Ansible</span>
                             <span>Prometheus</span>
                             <span>Grafana</span>
-
                         </div>
 
                     </article>
 
 
-                    <!-- Portfolio -->
-
                     <article class="project-card featured-project">
 
-                        <p class="project-client">
-                            Personal DevOps Project
-                        </p>
+                        <div class="project-top">
+                            <p class="project-client">Personal DevOps Project</p>
+                            <span class="region-tag">no-aws-required</span>
+                        </div>
 
-                        <h3>
-                            This Portfolio's CI/CD
-                        </h3>
+                        <h3>This Portfolio's Pipeline</h3>
 
                         <p>
-                            A production-style portfolio deployed on GitHub Actions
-                            and GitHub Pages — no AWS hosting required.
+                            A production-style portfolio built, tested and shipped
+                            through its own CI/CD pipeline on GitHub Actions and
+                            GitHub Pages — no AWS hosting required.
                         </p>
 
-                        <div class="project-tech">
+                        <p class="project-impact">Impact: fully automated push-to-deploy</p>
 
+                        <div class="project-tech">
                             <span>Git</span>
                             <span>GitHub</span>
                             <span>GitHub Actions</span>
                             <span>CI/CD</span>
                             <span>GitHub Pages</span>
-
                         </div>
 
                     </article>
@@ -883,16 +790,14 @@
 
                 <div class="section-heading">
 
-                    <p class="section-label">
-                        DEVOPS PIPELINE
-                    </p>
+                    <p class="section-label">// Pipeline</p>
 
                     <h2>
-                        This Portfolio is CI/CD Enabled
+                        This portfolio is CI/CD enabled
                     </h2>
 
                     <p>
-                        Every change to this portfolio is validated and deployed
+                        Every change to this site is validated and deployed
                         automatically through GitHub Actions.
                     </p>
 
@@ -902,77 +807,33 @@
                 <div class="pipeline">
 
                     <div class="pipeline-step">
-
                         <strong>01</strong>
-
-                        <h3>
-                            Git Push
-                        </h3>
-
-                        <p>
-                            Developer pushes code to GitHub.
-                        </p>
-
+                        <h3>Git Push</h3>
+                        <p>Developer pushes code to GitHub.</p>
                     </div>
 
-
-                    <div class="pipeline-arrow">
-                        →
-                    </div>
-
+                    <div class="pipeline-arrow">→</div>
 
                     <div class="pipeline-step">
-
                         <strong>02</strong>
-
-                        <h3>
-                            CI
-                        </h3>
-
-                        <p>
-                            GitHub Actions validates the project.
-                        </p>
-
+                        <h3>CI</h3>
+                        <p>GitHub Actions validates the project.</p>
                     </div>
 
-
-                    <div class="pipeline-arrow">
-                        →
-                    </div>
-
+                    <div class="pipeline-arrow">→</div>
 
                     <div class="pipeline-step">
-
                         <strong>03</strong>
-
-                        <h3>
-                            Build
-                        </h3>
-
-                        <p>
-                            Website files are packaged as an artifact.
-                        </p>
-
+                        <h3>Build</h3>
+                        <p>Website files are packaged as an artifact.</p>
                     </div>
 
-
-                    <div class="pipeline-arrow">
-                        →
-                    </div>
-
+                    <div class="pipeline-arrow">→</div>
 
                     <div class="pipeline-step">
-
                         <strong>04</strong>
-
-                        <h3>
-                            Deploy
-                        </h3>
-
-                        <p>
-                            GitHub Pages receives the production build.
-                        </p>
-
+                        <h3>Deploy</h3>
+                        <p>GitHub Pages receives the production build.</p>
                     </div>
 
                 </div>
@@ -1014,32 +875,14 @@
             <div class="container">
 
                 <div class="section-heading">
-
-                    <p class="section-label">
-                        EDUCATION
-                    </p>
-
-                    <h2>
-                        Academic Background
-                    </h2>
-
+                    <p class="section-label">// Education</p>
+                    <h2>Academic background</h2>
                 </div>
 
-
                 <div class="education-card">
-
-                    <h3>
-                        Bachelor of Technology
-                    </h3>
-
-                    <p>
-                        JNTUK University
-                    </p>
-
-                    <span>
-                        2022
-                    </span>
-
+                    <h3>Bachelor of Technology</h3>
+                    <p>JNTUK University</p>
+                    <span>2022</span>
                 </div>
 
             </div>
@@ -1054,116 +897,47 @@
             <div class="container contact-container">
 
                 <div class="section-heading">
-
-                    <p class="section-label">
-                        CONTACT
-                    </p>
-
-                    <h2>
-                        Let's connect
-                    </h2>
-
+                    <p class="section-label">// Contact</p>
+                    <h2>Let's connect</h2>
                     <p>
                         Open to discussing DevOps opportunities, cloud
                         infrastructure, automation and interesting engineering
                         problems.
                     </p>
-
                 </div>
-
 
                 <div class="contact-grid">
 
-
-                    <a
-                        href="mailto:naveendevops589@gmail.com"
-                        class="contact-card"
-                    >
-
-                        <span class="contact-icon">
-                            ✉
-                        </span>
-
+                    <a href="mailto:naveendevops589@gmail.com" class="contact-card">
+                        <span class="contact-icon">✉</span>
                         <span>
-
                             <small>Email</small>
-
-                            <strong>
-                                naveendevops589@gmail.com
-                            </strong>
-
+                            <strong>naveendevops589@gmail.com</strong>
                         </span>
-
                     </a>
 
-
-                    <a
-                        href="tel:+919912456575"
-                        class="contact-card"
-                    >
-
-                        <span class="contact-icon">
-                            ☎
-                        </span>
-
+                    <a href="tel:+919912456575" class="contact-card">
+                        <span class="contact-icon">☎</span>
                         <span>
-
                             <small>Phone</small>
-
-                            <strong>
-                                +91 9912456575
-                            </strong>
-
+                            <strong>+91 9912456575</strong>
                         </span>
-
                     </a>
 
-
-                    <a
-                        href="https://www.linkedin.com/in/naveen-kumar-nallamsetti"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        class="contact-card"
-                    >
-
-                        <span class="contact-icon">
-                            in
-                        </span>
-
+                    <a href="https://www.linkedin.com/in/naveen-kumar-nallamsetti" target="_blank" rel="noopener noreferrer" class="contact-card">
+                        <span class="contact-icon">in</span>
                         <span>
-
                             <small>LinkedIn</small>
-
-                            <strong>
-                                Naveen Kumar Nallamsetti
-                            </strong>
-
+                            <strong>Naveen Kumar Nallamsetti</strong>
                         </span>
-
                     </a>
 
-
-                    <a
-                        href="https://github.com/naveennallamsetti"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        class="contact-card"
-                    >
-
-                        <span class="contact-icon">
-                            &lt;/&gt;
-                        </span>
-
+                    <a href="https://github.com/naveennallamsetti" target="_blank" rel="noopener noreferrer" class="contact-card">
+                        <span class="contact-icon">&lt;/&gt;</span>
                         <span>
-
                             <small>GitHub</small>
-
-                            <strong>
-                                naveennallamsetti
-                            </strong>
-
+                            <strong>naveennallamsetti</strong>
                         </span>
-
                     </a>
 
                 </div>
@@ -1180,15 +954,8 @@
     <footer>
 
         <div class="container footer-container">
-
-            <p>
-                © 2026 Naveen Kumar Nallamsetti
-            </p>
-
-            <p>
-                AWS DevOps Engineer &middot; Chennai, India
-            </p>
-
+            <p>© 2026 Naveen Kumar Nallamsetti</p>
+            <p>AWS DevOps Engineer · Chennai, India</p>
         </div>
 
     </footer>
